@@ -65,7 +65,12 @@
    "survGood": null,
    "survTypical": null,
    "survNote": "not in StreetSpring 24-metro list",
-   "multipleSource": "https://passivemats.com/blog/austin-laundromat-investment-guide"
+   "multipleSource": "https://passivemats.com/blog/austin-laundromat-investment-guide",
+   "noWasherPct": 22.8,
+   "noWasherStatus": "estimate (regional proxy)",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, West South Central division (7); Austin not sampled",
+   "noWasherN": 2548,
+   "demandAdjSat": 9.6
   },
   {
    "id": "dallas",
@@ -88,7 +93,12 @@
    "multipleStatus": "reported",
    "survGood": 82.7,
    "survTypical": 70.1,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 22.1,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, OMB13CBSA 19100",
+   "noWasherN": 705,
+   "demandAdjSat": 12.7
   },
   {
    "id": "houston",
@@ -111,7 +121,12 @@
    "multipleStatus": "reported",
    "survGood": 82.7,
    "survTypical": 74.7,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 23.7,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, CBSA 26420",
+   "noWasherN": 747,
+   "demandAdjSat": 13.1
   },
   {
    "id": "phoenix",
@@ -134,7 +149,12 @@
    "multipleStatus": "reported",
    "survGood": 82.2,
    "survTypical": 72.4,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 15.2,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, CBSA 38060",
+   "noWasherN": 462,
+   "demandAdjSat": 23.7
   },
   {
    "id": "denver",
@@ -158,7 +178,12 @@
    "survGood": 82.7,
    "survTypical": 70.3,
    "survNote": "",
-   "saturationNote": "PassiveMats' own Denver guide (Mar 1, 2026) states 1.3 per 10K renters, not 3.9. Unresolved conflict."
+   "saturationNote": "PassiveMats' own Denver guide (Mar 1, 2026) states 1.3 per 10K renters, not 3.9. Unresolved conflict.",
+   "noWasherPct": 25.5,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 Metropolitan PUF v1.1, renter-occupied units, WASHER=2, weighted, CBSA 19740",
+   "noWasherN": 577,
+   "demandAdjSat": 15.3
   },
   {
    "id": "sandiego",
@@ -181,7 +206,12 @@
    "multipleStatus": "reported",
    "survGood": 82.2,
    "survTypical": 70.2,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 37.0,
+   "noWasherStatus": "estimate (regional proxy)",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, Pacific division (9); San Diego not sampled 2023",
+   "noWasherN": 4318,
+   "demandAdjSat": 11.6
   },
   {
    "id": "lasvegas",
@@ -204,7 +234,12 @@
    "multipleStatus": "none",
    "survGood": null,
    "survTypical": null,
-   "survNote": "not in StreetSpring 24-metro list"
+   "survNote": "not in StreetSpring 24-metro list",
+   "noWasherPct": 22.3,
+   "noWasherStatus": "estimate (regional proxy)",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, Mountain division (8); Las Vegas sampled 2021 not 2023",
+   "noWasherN": 1119,
+   "demandAdjSat": 19.3
   },
   {
    "id": "chicago",
@@ -227,7 +262,12 @@
    "multipleStatus": "none",
    "survGood": 84.0,
    "survTypical": 71.8,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 52.3,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, CBSA 16980",
+   "noWasherN": 701,
+   "demandAdjSat": 9.8
   },
   {
    "id": "losangeles",
@@ -250,7 +290,12 @@
    "multipleStatus": "reported",
    "survGood": 83.1,
    "survTypical": 69.8,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 50.0,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, CBSA 31080",
+   "noWasherN": 1074,
+   "demandAdjSat": 10.8
   },
   {
    "id": "nyc",
@@ -273,7 +318,27 @@
    "multipleStatus": "reported",
    "survGood": 83.1,
    "survTypical": 66.0,
-   "survNote": ""
+   "survNote": "",
+   "noWasherPct": 67.5,
+   "noWasherStatus": "verified",
+   "noWasherSource": "AHS 2023 National PUF v1.1 (household file), renter-occupied units, WASHER=2, weighted by WEIGHT, CBSA 35620",
+   "noWasherN": 1494,
+   "demandAdjSat": 10.1
   }
- ]
+ ],
+ "inUnit": {
+  "nationalRenterNoWasher": 33.6,
+  "note": "Computed by this site from AHS 2023 public-use microdata (unweighted n shown per market). Sampling error is roughly \u00b12\u20134 pts for metros. This is not an official Table Creator output; the Table Creator 'Heating, Air Conditioning, and Appliances' table with Tenure=Renter should reproduce it. 'Washing machine' means a washer in the unit. Dryer shares are similar. The ACS does not ask about laundry (only plumbing and kitchen facilities).",
+  "puf": "https://www.census.gov/programs-surveys/ahs/data/2023/ahs-2023-public-use-file--puf-.html",
+  "newConstruction": "88% of multifamily units completed in 2024 had in-unit (individual) laundry; 12% had shared or no laundry. The share has been stable since 2015. Northeast 33% shared/none vs 3% Midwest, 4% South, 9% West. (NAHB Eye on Housing, from Census Survey of Construction, Nov 2025)",
+  "newConstructionUrl": "https://eyeonhousing.org/2025/11/laundry-room-locations-in-new-homes-and-apartments-2024/",
+  "nmhc": "93% of renters name an in-unit washer/dryer among the most-wanted features (2024 NMHC/Grace Hill Renter Preferences Survey, 172,703 renters).",
+  "nmhcUrl": "https://www.multifamilydive.com/news/nmhc-survey-reveals-renters-top-preferences/700666/",
+  "denver": "Denver had a record multifamily construction wave: about 18,700\u201320,000 apartments completed in 2024, inventory +5.7% (RealPage; Apartment Association of Metro Denver), with the pipeline peaking above 44,000 units in mid-2023 (Northmarq). Nationally 88% of new apartments include in-unit laundry, and AHS 2023 shows only 25.5% of Denver renters lack a washer. A link between new in-unit-laundry inventory and Denver's low laundromat density is plausible but unverified: no source found attributes it causally.",
+  "denverUrls": [
+   "https://www.realpage.com/analytics/denver-market-profile-november-2025/",
+   "https://www.aamdhq.org/news/insights-and-strategies-for-a-resilient--economic-future-from-econxchange-2025",
+   "https://www.northmarq.com/sites/default/files/docs/NMMarketInsights-Q32025-Denver.pdf"
+  ]
+ }
 }
