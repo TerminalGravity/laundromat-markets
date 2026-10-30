@@ -18,3 +18,4 @@ nav a{margin-right:16px;color:var(--acc);text-decoration:none;font-weight:600}a{
 footer{padding:30px 16px;color:var(--mut);font-size:13px}
 @media(max-width:760px){.grid2,.flow{grid-template-columns:1fr}#map{height:280px}h1{font-size:21px}}
 .bar.on span{font-weight:700}.bar.on i{background:#2b2b2b}#map{position:relative;z-index:0;min-height:280px}
+.tabs{display:flex;gap:6px;margin:36px 0 10px;border-bottom:2px solid var(--ink)}.tab{background:#fff;color:var(--ink);border:1px solid var(--line);border-bottom:none;border-radius:3px 3px 0 0;font-weight:600}.tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}.strip div.most{border-left-color:#9b2c2c}.tag.corrected{border-color:#8a5a00;color:#8a5a00}
